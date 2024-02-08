@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shubhanshusingh_formbricks_1707360663257-push-trigger-input-set
+  identifier: Build_shubhanshusingh_formbricks_1707360663257pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_shubhanshusingh_formbricks_1707360663257
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
